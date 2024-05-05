@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="main-container">
+            <div class="nav">
+                <div class="logo">
+                    <a href="">Web Portofolio</a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <section id="home">
+                <div class="home-left">
+                    <h3 class="pre-title">Hallo all I am</h3>
+                    <h1 class="home-name">Joni Indra Pratama</h1>
+                    <p class="subtitle">I am a S1 informatics student at Jenderal Achmad Yani Yogyakarta University</p><br />
+                    <a href="">
+                        <button class="btn">My Resume</button>
+                    </a>
+                </div>
+                <div class="home-right">
+                    <img src="img/me.jpg" alt="fotosaya" />
+                </div>
+            </section>
+        </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- About -->
+    <section id="about">
+        <div class="main-container">
+            <h1 class="section-title-about">About</h1>
+            <p style="text-align: center;">
+                I'm a student in the Informatics study program at General Achmad Yani Yogyakarta University, who enjoys the world of technology, especially UI/UX and AI.
+            </p><br/>
+
+            <div class="grid-3">
+                <!-- About 1-->
+                <div  class="about">
+                    <div class="about-icon">
+                        <img src="img/pm.png" alt="pm" width="24" height="24" viewbox="0 0 24 24">
+                    </div>
+                    <h4>Product Manager</h4>
+                    <p>
+                        learning to be a leader in a project that I am currently involved in, I am interested in that.
+                    </p>
+                </div>
+
+                <!-- About 2-->
+                <div  class="about">
+                    <div class="about-icon">
+                        <img src="img/uiux.png" alt="uiux" width="24" height="24" viewbox="0 0 24 24">
+                    </div>
+                    <h4>UI/UX</h4>
+                    <p>
+                        I learned to use UI/UX seriously because I enjoy using technology in everyday life.
+                    </p>
+                </div>
+
+                <!-- About 3-->
+                <div class="about">
+                    <div class="about-icon">
+                        <img src="img/webdev.png" alt="webdev" width="24" height="24" viewbox="0 0 24 24">
+                    </div>
+                    <h4>Web Development</h4>
+                    <p>
+                        I have always been interested in using technology, especially in the field of web development
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Skills & Experience -->
+    <section id="skills">
+       <div class="skill main-container">
+        <h1 class="section-title-skills">Experience & Skills</h1>
+        <div class="skills-grid">
+            <div class="skills-left">
+                <!-- Experience 1 -->
+                <div class="experience">
+                    <div class="line">
+                        <div></div>
+                    </div>
+                    
+                    <div class="experience-info">
+                        <h4 class="experience-title">SMK Negeri 1 Bakauheni</h4>
+                        <p>Teknik Komputer dan Jaringan</p>
+                        <h4 class="experience-date">2015 - 2018</h4>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="experience">
+                    <div class="line">
+                        <div></div>
+                    </div>
+
+                    <div class="experience-info">
+                        <h4 class="experience-title">Jenderal Achmad Yani Yogyakarta University</h4>
+                        <p>S1 Informatika</p>
+                        <h4 class="experience-date">2021 - Sekarang</h4>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="experience">
+                    <div class="line">
+                        <div></div>
+                    </div>
+
+                    <div class="experience-info">
+                        <h4 class="experience-title">Magang di PT. Kana Komputer</h4>
+                        <p>Service Komputer</p>
+                        <h4 class="experience-date">3 Bulan</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-right">
+                <p>Because I enjoy the world of technology, I learned to master several things in technology. Even though it's still basic, I will continue to hone my skills.</p>
+
+                <div class="skills-list">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <li>Figma</li>
+                    </ul>
+
+                    <ul>
+                        <li>Python</li>
+                        <li>MySql</li>
+                        <li>NodeJs</li>
+                        <li>ReactJs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       </div>
+    </section>
+    <!-- End of Experience & Skills -->
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="contact main-container">
+            <div style="text-align: center;">
+                <h1>Contact Me!</h1>
+                <p>
+                    Get in touch
+                </p><br />
+            </div>
+
+            <form action="" class="contact-form">
+                <div>
+                    <input type="text" name="name" placeholder="Name">
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+                <div>
+                    <textarea name="massage" id="" cols="30" rows="10" placeholder="Massage"></textarea>
+                </div>
+                <div>
+                    <button class="btn-submit">Send Massage</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- End of Contact -->
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-icons">
+            <a href="https://www.instagram.com/">
+                <img src="img/instagram.png" alt="" width="24" height="24" viewbox="0 0 24 24">
+            </a>
+            <a href="https://www.linkedin.com/login/in">
+                <img src="img/linkedin.png" alt="" width="24" height="24" viewbox="0 0 24 24">
+            </a>
+            <a href="https://github.com/ndraaaa">
+                <img src="img/github.png" alt="" width="24" height="24" viewbox="0 0 24 24">
+            </a>
+        </div>
+
+        <p>&#169; 2024 All Right Reserved</p>
+    </footer>
+</body>
+</html>
